@@ -21,7 +21,7 @@ public:
 
 	// ------------ Getters & Setters ------------
 	// ------------ Helper Methods ------------
-	const Vec3& Zero()
+	static Vec3& Zero()
 	{
 		return Vec3(0, 0, 0);
 	}
